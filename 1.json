@@ -1,0 +1,251 @@
+{
+    "$type": "Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers",
+    "UserName": "Storefront\\DC030101",
+    "AccountNumber": "1b758b6427eb48879f4809b14a2bf889",
+    "AccountStatus": "ActiveAccount",
+    "Email": "DC030101@hkjc.com",
+    "Components": {
+        "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Component, Sitecore.Commerce.Core]], System.Private.CoreLib",
+        "$values": [
+            {
+                "$type": "Sitecore.Commerce.Plugin.Customers.CustomerDetailsComponent, Sitecore.Commerce.Plugin.Customers",
+                "View": {
+                    "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                    "EntityVersion": 1,
+                    "VersionedItemId": "-1",
+                    "SelectedChildView": { "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core" },
+                    "DisplayRank": 500,
+                    "UiHint": "Flat",
+                    "Icon": "chart_column_stacked",
+                    "ChildViews": {
+                        "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core]], System.Private.CoreLib",
+                        "$values": [
+                            {
+                                "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                                "EntityVersion": 1,
+                                "VersionedItemId": "-1",
+                                "SelectedChildView": {
+                                    "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core"
+                                },
+                                "DisplayRank": 500,
+                                "UiHint": "Flat",
+                                "Icon": "chart_column_stacked",
+                                "Properties": {
+                                    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views]], System.Private.CoreLib",
+                                    "$values": [
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "RawValue": "en",
+                                            "IsHidden": false,
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "Language"
+                                        }
+                                    ]
+                                },
+                                "Name": "Details"
+                            },
+                            {
+                                "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                                "DisplayName": "Customer Template View",
+                                "EntityId": "Entity-Customer-1b758b6427eb48879f4809b14a2bf889",
+                                "EntityVersion": 1,
+                                "ItemId": "Composer-67bb3021182a4bbd8f782a83aee955f1",
+                                "VersionedItemId": "Composer-67bb3021182a4bbd8f782a83aee955f1-1",
+                                "SelectedChildView": {
+                                    "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core"
+                                },
+                                "DisplayRank": 0,
+                                "UiHint": "Flat",
+                                "Icon": "piece",
+                                "Properties": {
+                                    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views]], System.Private.CoreLib",
+                                    "$values": [
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "Membership Number",
+                                            "RawValue": "DC0301-01",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "MembershipNumber"
+                                        }
+                                    ]
+                                },
+                                "Name": "CustomerTemplateView"
+                            },
+                            {
+                                "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                                "DisplayName": "Wish List",
+                                "EntityId": "Entity-Customer-1b758b6427eb48879f4809b14a2bf889",
+                                "EntityVersion": 1,
+                                "ItemId": "Composer-da92dffbbd314d1ba417beda0b7c8bbc",
+                                "VersionedItemId": "Composer-da92dffbbd314d1ba417beda0b7c8bbc-1",
+                                "SelectedChildView": {
+                                    "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core"
+                                },
+                                "DisplayRank": 0,
+                                "UiHint": "Flat",
+                                "Icon": "piece",
+                                "Properties": {
+                                    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views]], System.Private.CoreLib",
+                                    "$values": [
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "Levade",
+                                            "RawValue": "[{\"ProductId\":\"G1\"},{\"ProductId\":\"H1\"},{\"ProductId\":\"2APLOW21CYN001\"},{\"ProductId\":\"2HOTAB22GIB002\"},{\"ProductId\":\"1GLLAC22MAO002\"},{\"ProductId\":\"2APLTL21CYN001\"},{\"ProductId\":\"1BGHAN22MAN001\"},{\"ProductId\":\"2GLLSC21RAN005\"},{\"ProductId\":\"1GLLSC20KEE007\"}]",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "Levade"
+                                        },
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "Wine",
+                                            "RawValue": "[{\"ProductId\":\"W001\"}]",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "Wine"
+                                        }
+                                    ]
+                                },
+                                "Name": "WishListTemplateView"
+                            },
+                            {
+                                "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                                "DisplayName": "Coupon Applied",
+                                "EntityId": "Entity-Customer-1b758b6427eb48879f4809b14a2bf889",
+                                "EntityVersion": 1,
+                                "ItemId": "Composer-3b4edb46495d4a61bd83192a6366b451",
+                                "VersionedItemId": "Composer-3b4edb46495d4a61bd83192a6366b451-1",
+                                "SelectedChildView": {
+                                    "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core"
+                                },
+                                "DisplayRank": 0,
+                                "UiHint": "Flat",
+                                "Icon": "piece",
+                                "Properties": {
+                                    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views]], System.Private.CoreLib",
+                                    "$values": [
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "2023",
+                                            "RawValue": "|300off01|MAR8|onlytt|50discount|birthday2|xx5x9epkzz|xx5x9epkzz|xxeei2dhxx|xxeei2dhxx|xxeei2dhxx|xxhkxb58xx|xxhkxb58xx|20230630",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "2023"
+                                        },
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "2024",
+                                            "RawValue": "",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "2024"
+                                        },
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "2025",
+                                            "RawValue": "",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "2025"
+                                        }
+                                    ]
+                                },
+                                "Name": "CouponApplied"
+                            }
+                        ]
+                    }
+                },
+                "Id": "3514572e950848799ced3595ca13b3af"
+            },
+            {
+                "$type": "Sitecore.Commerce.Plugin.ManagedLists.ListMembershipsComponent, Sitecore.Commerce.Plugin.ManagedLists",
+                "Memberships": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": ["Customers", "RecentCustomers"]
+                },
+                "Id": "4595e2c930ca406388f2d7f7dd5887eb"
+            },
+            {
+                "$type": "Sitecore.Commerce.Plugin.Composer.ComposerTemplateViewsComponent, Sitecore.Commerce.Plugin.Composer",
+                "Views": {
+                    "$type": "System.Collections.Concurrent.ConcurrentDictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Collections.Concurrent",
+                    "Composer-67bb3021182a4bbd8f782a83aee955f1": "Entity-ComposerTemplate-CustomerTemplate",
+                    "Composer-3b4edb46495d4a61bd83192a6366b451": "Entity-ComposerTemplate-CouponAppliedTemplate",
+                    "Composer-da92dffbbd314d1ba417beda0b7c8bbc": "Entity-ComposerTemplate-WishListTemplate"
+                },
+                "Id": "a31472d2fa9a489884554b8771892190"
+            },
+            {
+                "$type": "Sitecore.Commerce.Plugin.Views.EntityViewComponent, Sitecore.Commerce.Plugin.Views",
+                "View": {
+                    "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                    "EntityVersion": 1,
+                    "VersionedItemId": "-1",
+                    "SelectedChildView": { "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core" },
+                    "DisplayRank": 500,
+                    "UiHint": "Flat",
+                    "Icon": "chart_column_stacked",
+                    "ChildViews": {
+                        "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core]], System.Private.CoreLib",
+                        "$values": [
+                            {
+                                "$type": "Sitecore.Commerce.EntityViews.EntityView, Sitecore.Commerce.Plugin.Views",
+                                "DisplayName": "Customer Template View",
+                                "EntityId": "Entity-Customer-1b758b6427eb48879f4809b14a2bf889",
+                                "EntityVersion": 1,
+                                "ItemId": "Composer-67bb3021182a4bbd8f782a83aee955f1",
+                                "VersionedItemId": "Composer-67bb3021182a4bbd8f782a83aee955f1-1",
+                                "SelectedChildView": {
+                                    "$type": "Sitecore.Commerce.Core.Model, Sitecore.Commerce.Core"
+                                },
+                                "DisplayRank": 0,
+                                "UiHint": "Flat",
+                                "Icon": "piece",
+                                "Properties": {
+                                    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views]], System.Private.CoreLib",
+                                    "$values": [
+                                        {
+                                            "$type": "Sitecore.Commerce.EntityViews.ViewProperty, Sitecore.Commerce.Plugin.Views",
+                                            "DisplayName": "Membership Number",
+                                            "RawValue": "DC0301-01",
+                                            "IsHidden": false,
+                                            "OriginalType": "System.String",
+                                            "IsReadOnly": false,
+                                            "IsRequired": true,
+                                            "Name": "MembershipNumber"
+                                        }
+                                    ]
+                                },
+                                "Name": "CustomerTemplateView"
+                            }
+                        ]
+                    }
+                },
+                "Id": "14c3b8d37e2d48bd8e93e42dd6023951"
+            }
+        ]
+    },
+    "UpdatedBy": "sitecore\\Admin",
+    "DateCreated": "2023-02-21T09:27:09.1944752+00:00",
+    "DateUpdated": "2023-10-25T08:21:18.9753708+00:00",
+    "FriendlyId": "1b758b6427eb48879f4809b14a2bf889",
+    "Id": "Entity-Customer-1b758b6427eb48879f4809b14a2bf889",
+    "Version": 385,
+    "EntityVersion": 1,
+    "Published": true,
+    "IsPersisted": true,
+    "UniqueId": "33f4d405-7d34-1f68-cced-cbce3fe1dfc0"
+}

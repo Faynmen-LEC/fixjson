@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Commerce.Core" Version="9.0.8" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Composer" Version="9.0.8" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Customers" Version="9.0.6" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.ManagedLists" Version="9.0.8" />
+    <PackageReference Include="Sitecore.Commerce.Plugin.Views" Version="9.0.8" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
